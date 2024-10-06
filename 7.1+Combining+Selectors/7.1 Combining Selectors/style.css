@@ -1,0 +1,45 @@
+/* Write your code here: */
+
+/* Group selector:
+<body>
+  <h1>To Do List</h1>
+  <h2>Monday</h2> */
+h1, h2 {
+    color: blueviolet;
+}
+
+/* Child selector:
+<div class="box">
+    <p class="done">Do these things today!</p> */
+.box > .done {
+    color: firebrick;
+}
+
+/* Descendant selector:
+<div class="box">
+    <p class="done">Do these things today!</p>
+    <ul class="list">
+      <li>Wash Clothes</li>
+      <li class="done">Read</li>
+      <li class="done">Maths Questions</li> */
+.list li {
+    color: blue;
+}
+
+/* Descendant selector:
+<ul class="list">
+      <li>Wash Clothes</li>
+      <li class="done">Read</li>
+      <li class="done">Maths Questions</li> */
+li.done {
+    color: seagreen;
+}
+
+/* Combine Combinators:
+<ul class="list">
+      <li>Wash Clothes</li>
+      <li class="done">Read</li>
+      <li class="done">Maths Questions</li> */
+body > ul p.done {
+    font-size: 2rem;
+}

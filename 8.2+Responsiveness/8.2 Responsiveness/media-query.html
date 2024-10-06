@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Query</title>
+  <style>
+    div {
+      background-color: rebeccapurple;
+      height: 600px;
+      width: 600px;
+    }
+
+    @media (max-width: 900) {
+
+      /* CSS for screens below or equal to 600px wide */
+      div {
+        height: 600px;
+        width: 600px;
+      }
+    }
+
+    @media (max-width: 700px) {
+      div {
+        height: 400px;
+        width: 400px;
+      }
+    }
+
+    @media (max-width: 500px) {
+      div {
+        height: 300px;
+        width: 300px;
+      }
+    }
+
+    @media (max-width: 400px) {
+      div {
+        height: 100px;
+        width: 100px;
+      }
+    }
+    
+  </style>
+</head>
+
+<body>
+  <h1>Media Query</h1>
+  <div>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
+  </div>
+</body>
+
+</html>
